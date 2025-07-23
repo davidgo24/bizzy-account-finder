@@ -24,33 +24,31 @@ const Home = () => {
 
         {/* Hero Section */}
         <div className="text-center max-w-4xl mx-auto">
-          {/* Hero Image */}
-          <div className="mb-8 relative overflow-hidden rounded-2xl shadow-large">
-            <img 
-              src={heroImage} 
-              alt="Smart Start Banking" 
-              className="w-full h-64 md:h-80 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent"></div>
-            <div className="absolute bottom-4 left-4 text-white">
-              <h2 className="text-2xl md:text-3xl font-bold mb-2">
-                Find Your Perfect Account
-              </h2>
-              <p className="text-sm md:text-base opacity-90">
-                AI-powered banking recommendations
-              </p>
-            </div>
+          {/* Educational Introduction */}
+          <div className="bg-info-light p-6 rounded-xl mb-8 border border-info/20">
+            <h3 className="text-xl font-semibold text-info mb-3">{t.whatIsChecking}</h3>
+            <p className="text-info-foreground text-sm leading-relaxed">
+              {t.checkingExplained}
+            </p>
           </div>
-          
+
           <h2 className="text-4xl md:text-6xl font-bold text-foreground mb-6">
             {t.welcome}
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-4">
             {t.tagline}
           </p>
-          <p className="text-lg text-muted-foreground mb-12">
+          <p className="text-lg text-muted-foreground mb-8">
             {t.subtitle}
           </p>
+
+          {/* Benefits for Low-Income Users */}
+          <div className="bg-secondary-light p-6 rounded-xl mb-8 border border-secondary/20">
+            <h3 className="text-xl font-semibold text-secondary mb-3">{t.whyNeedAccount}</h3>
+            <p className="text-secondary-foreground text-sm leading-relaxed">
+              {t.accountBenefits}
+            </p>
+          </div>
 
           {/* Features */}
           <div className="grid md:grid-cols-3 gap-6 mb-12">

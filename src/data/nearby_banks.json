@@ -1,59 +1,86 @@
 {
   "banks": [
     {
-      "name": "Community First Bank",
+      "name": "Community First Credit Union",
+      "type": "credit-union",
+      "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003", "60601", "60602", "77001", "77002"],
+      "accounts": [
+        {
+          "name": "Free Checking",
+          "minimumDeposit": "$5",
+          "monthlyFee": "$0 always",
+          "features": ["No monthly fees ever", "Free debit card", "Free mobile banking", "No minimum balance"],
+          "distance": "0.6 miles"
+        }
+      ]
+    },
+    {
+      "name": "People's Credit Union",
+      "type": "credit-union", 
+      "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003", "60601", "60602", "77001", "77002"],
+      "accounts": [
+        {
+          "name": "Basic Checking",
+          "minimumDeposit": "$25",
+          "monthlyFee": "$0 with direct deposit",
+          "features": ["Free with direct deposit", "Shared ATM network", "Financial counseling", "No overdraft fees"],
+          "distance": "1.1 miles"
+        }
+      ]
+    },
+    {
+      "name": "First National Bank",
       "type": "bank",
       "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003"],
       "accounts": [
         {
           "name": "Essential Checking",
-          "minimumDeposit": "$25",
-          "monthlyFee": "$0 with direct deposit",
-          "features": ["Free debit card", "Mobile banking", "No minimum balance"],
+          "minimumDeposit": "$50",
+          "monthlyFee": "$3 (waived with $300 balance)",
+          "features": ["Low minimum balance", "Many ATM locations", "Online banking", "Mobile check deposit"],
           "distance": "0.8 miles"
         }
       ]
     },
     {
-      "name": "Valley Credit Union",
+      "name": "Neighborhood Federal Credit Union",
       "type": "credit-union",
-      "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003"],
+      "zipCodes": ["60601", "60602", "77001", "77002", "30301", "30302"],
       "accounts": [
         {
-          "name": "Member Checking",
-          "minimumDeposit": "$5",
+          "name": "Starter Account",
+          "minimumDeposit": "$0",
           "monthlyFee": "$0",
-          "features": ["Free ATM network", "Zelle included", "24/7 customer support"],
-          "distance": "1.2 miles"
-        }
-      ]
-    },
-    {
-      "name": "Local Trust Bank",
-      "type": "bank",
-      "zipCodes": ["90210", "90211", "90212"],
-      "accounts": [
-        {
-          "name": "Smart Checking",
-          "minimumDeposit": "$100",
-          "monthlyFee": "$5 (waived with $500 balance)",
-          "features": ["Mobile check deposit", "Bill pay", "Overdraft protection"],
-          "distance": "2.1 miles"
+          "features": ["No fees ever", "Free financial education", "Low-cost loans", "Zelle included"],
+          "distance": "2.3 miles"
         }
       ]
     }
   ],
   "onlineOptions": [
     {
-      "name": "Ally Bank",
+      "name": "Chime (Online Bank)",
+      "type": "bank",
+      "accounts": [
+        {
+          "name": "Spending Account",
+          "minimumDeposit": "$0",
+          "monthlyFee": "$0",
+          "features": ["No hidden fees", "Early direct deposit", "Automatic savings", "60,000+ fee-free ATMs"],
+          "distance": "Online only - use any ATM"
+        }
+      ]
+    },
+    {
+      "name": "Ally Bank (Online)",
       "type": "bank",
       "accounts": [
         {
           "name": "Interest Checking",
           "minimumDeposit": "$0",
           "monthlyFee": "$0",
-          "features": ["0.10% APY", "No fees", "ATM reimbursement"],
-          "distance": "Online only"
+          "features": ["Earns interest on your money", "No fees anywhere", "Reimburses ATM fees", "24/7 customer service"],
+          "distance": "Online only - reimburses ATM fees"
         }
       ]
     },
@@ -63,10 +90,10 @@
       "accounts": [
         {
           "name": "360 Checking",
-          "minimumDeposit": "$0",
+          "minimumDeposit": "$0", 
           "monthlyFee": "$0",
-          "features": ["No minimum balance", "Fee-free overdraft", "Mobile banking"],
-          "distance": "Online only"
+          "features": ["No minimum balance", "No overdraft fees", "Great mobile app", "38,000+ fee-free ATMs"],
+          "distance": "Online only - many free ATMs"
         }
       ]
     }
