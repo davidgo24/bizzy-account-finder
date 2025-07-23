@@ -1,0 +1,74 @@
+{
+  "banks": [
+    {
+      "name": "Community First Bank",
+      "type": "bank",
+      "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003"],
+      "accounts": [
+        {
+          "name": "Essential Checking",
+          "minimumDeposit": "$25",
+          "monthlyFee": "$0 with direct deposit",
+          "features": ["Free debit card", "Mobile banking", "No minimum balance"],
+          "distance": "0.8 miles"
+        }
+      ]
+    },
+    {
+      "name": "Valley Credit Union",
+      "type": "credit-union",
+      "zipCodes": ["90210", "90211", "90212", "10001", "10002", "10003"],
+      "accounts": [
+        {
+          "name": "Member Checking",
+          "minimumDeposit": "$5",
+          "monthlyFee": "$0",
+          "features": ["Free ATM network", "Zelle included", "24/7 customer support"],
+          "distance": "1.2 miles"
+        }
+      ]
+    },
+    {
+      "name": "Local Trust Bank",
+      "type": "bank",
+      "zipCodes": ["90210", "90211", "90212"],
+      "accounts": [
+        {
+          "name": "Smart Checking",
+          "minimumDeposit": "$100",
+          "monthlyFee": "$5 (waived with $500 balance)",
+          "features": ["Mobile check deposit", "Bill pay", "Overdraft protection"],
+          "distance": "2.1 miles"
+        }
+      ]
+    }
+  ],
+  "onlineOptions": [
+    {
+      "name": "Ally Bank",
+      "type": "bank",
+      "accounts": [
+        {
+          "name": "Interest Checking",
+          "minimumDeposit": "$0",
+          "monthlyFee": "$0",
+          "features": ["0.10% APY", "No fees", "ATM reimbursement"],
+          "distance": "Online only"
+        }
+      ]
+    },
+    {
+      "name": "Capital One 360",
+      "type": "bank",
+      "accounts": [
+        {
+          "name": "360 Checking",
+          "minimumDeposit": "$0",
+          "monthlyFee": "$0",
+          "features": ["No minimum balance", "Fee-free overdraft", "Mobile banking"],
+          "distance": "Online only"
+        }
+      ]
+    }
+  ]
+}
